@@ -15,9 +15,17 @@ export default function Top() {
 					<FontAwesomeIcon icon={faCode} className='mr-3' />
 					<h1 className='text-2xl'>Web Developer</h1>
 				</p>
-				<p className=' text-neutral-400'>
+				<p className=' text-neutral-400 mb-3'>
 					Full-Stack Developer proficient in Laravel, React, and Express.
 				</p>
+				<div className='grid grid-cols-2 gap-3'>
+					<a href='https://www.facebook.com/profile.php?id=100025052384163' target='_blank' className='button'>
+						<ion-icon name="logo-facebook" size="large"></ion-icon>
+					</a>
+					<a href='https://github.com/kyawphyothu' target='_blank' className="button">
+						<ion-icon name="logo-github" size="large"></ion-icon>
+					</a>
+				</div>
 			</div>
 		</div>
 	)
