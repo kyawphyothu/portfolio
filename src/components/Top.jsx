@@ -5,7 +5,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons'
 
 export default function Top() {
 	return (
-		<div className="h-screen bg-gradient-to-tr from-gray-700 to-black text-white flex justify-center items-center text-center">
+		<div id='home' className="h-screen bg-gradient-to-tr from-gray-700 to-black text-white flex justify-center items-center text-center">
 			<div className='flex flex-col items-center'>
 				<img src={profile} className="w-40 h-40 rounded-full outline outline-offset-4 outline-teal-600 mb-10" />
 				<h1 className='font-semibold text-4xl mb-3'>

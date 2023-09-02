@@ -1,14 +1,17 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import Skill from './Skill';
 
-export default function Main() {
+export default function Body() {
 	const navigate = useNavigate();
 
 	return (
 		<div className='container min-h-screen py-10 px-3 max-w-screen-lg'>
+			{/* skills */}
+			<Skill />
 			{/* articles */}
-			<div>
-				<h1 className="text-2xl mb-3 font-bold">Articles</h1>
+			<div id='article'>
+				<h1 className="mb-3 font-extrabold text-3xl text-slate-400">Articles</h1>
 				<div className='grid sm:grid-cols-1 md:grid-cols-3 gap-4'>
 					{[1].map((i) => {
 						return (

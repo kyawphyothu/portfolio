@@ -9,7 +9,3 @@
 .full-h-n{
 	height: calc(100vh - 96px);
 }
-
-:root{
-	/* background-color: rgb(226, 226, 226); */
-}
