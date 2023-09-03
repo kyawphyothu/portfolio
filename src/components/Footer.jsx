@@ -16,7 +16,7 @@ export default function Footer() {
 					</div>
 					<p className="font-semibold text-lg text-gray-400">Live in Yangon, Myanmar</p>
 					<p className=" font-medium text-lg">Reach me via &nbsp;
-						<a className="font-semibold text-lg text-orange-600 underline decoration-dotted hover:decoration-solid" href='mailto:x.kyawphyothu.com'>x.kyawphyothu.com</a>
+						<a className="font-semibold text-lg text-orange-600 underline decoration-dotted hover:decoration-solid" href='mailto:x@kyawphyothu.com'>x@kyawphyothu.com</a>
 					</p>
 				</div>
 			</div>
