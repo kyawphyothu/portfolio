@@ -12,6 +12,7 @@ import tailwindcssPng from "../assets/skills/tailwindcss.png";
 import bootstrapPng from "../assets/skills/bootstrap.png";
 import mysqlPng from "../assets/skills/mysql.png";
 import mongodbPng from "../assets/skills/mongodb.png";
+import linuxPng from "../assets/skills/linux.png";
 
 export default function Skill() {
 	const skills = [
@@ -23,7 +24,17 @@ export default function Skill() {
 		{
 			name: "CSS",
 			image: cssPng,
-			status: "Expert",
+			status: "Intermediate",
+		},
+		{
+			name: "Bootstrap",
+			image: bootstrapPng,
+			status: "Advanced",
+		},
+		{
+			name: "TailwindCSS",
+			image: tailwindcssPng,
+			status: "Intermediate",
 		},
 		{
 			name: "JavaScript",
@@ -45,25 +56,15 @@ export default function Skill() {
 			image: reactPng,
 			status: "Advanced",
 		},
-		{
-			name: "React Native",
-			image: reactnativePng,
-			status: "Beginner",
-		},
+		// {
+		// 	name: "React Native",
+		// 	image: reactnativePng,
+		// 	status: "Beginner",
+		// },
 		{
 			name: "NodeJS",
 			image: nodePng,
-			status: "Advanced",
-		},
-		{
-			name: "TailwindCSS",
-			image: tailwindcssPng,
 			status: "Intermediate",
-		},
-		{
-			name: "Bootstrap",
-			image: bootstrapPng,
-			status: "Advanced",
 		},
 		{
 			name: "MySQL",
@@ -73,6 +74,11 @@ export default function Skill() {
 		{
 			name: "MongoDB",
 			image: mongodbPng,
+			status: "Beginner",
+		},
+		{
+			name: "Linux",
+			image: linuxPng,
 			status: "Intermediate",
 		},
 	]
@@ -86,7 +92,7 @@ export default function Skill() {
 			<div className="grid gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
 				{
 					skills.map((s) => {
-						return <SkillBox name={s.name} image={s.image} status={s.status} />;
+						return <SkillBox name={s.name} image={s.image} status={s.status} key={s.name} />;
 					})
 				}
 			</div>

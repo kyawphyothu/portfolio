@@ -1,5 +1,4 @@
 import React from 'react'
-import JsPng from "../assets/skills/js.png"
 
 export default function SkillBox({ name, image, status }) {
 	return (
@@ -7,7 +6,7 @@ export default function SkillBox({ name, image, status }) {
 			<img src={image} className="w-10 mr-2" />
 			<h1 className="font-bold text-sm">
 				{name}
-				<h1 className="text-xs text-gray-500 group-hover:block hidden">{status}</h1>
+				<p className="text-xs text-gray-500 group-hover:block hidden">{status}</p>
 			</h1>
 		</div>
 	)

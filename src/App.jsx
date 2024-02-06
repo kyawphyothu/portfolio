@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import Nav from "./components/Nav";
 import Home from "./pages/Home";
-import Article from "./pages/Article";
+import She from "./pages/experiences/She";
 
 export default function App() {
 	return (
@@ -9,7 +8,8 @@ export default function App() {
 			{/* <Nav /> */}
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/articles/:id" element={<Article />} />
+				<Route path="/exp/she" element={<She />} />
+				{/* <Route path="/articles/:id" element={<Article />} /> */}
 			</Routes>
 		</>
 	)
