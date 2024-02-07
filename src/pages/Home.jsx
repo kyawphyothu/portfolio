@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from "../assets/profile_1.jpg"
+import profile from "../assets/profile_2.png"
 import Skill from '../components/Skill'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
